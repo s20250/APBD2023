@@ -1,0 +1,17 @@
+/Users/magdalena/Documents/GitHub/APBD2023/APBD_zad2/APBD_zad2/obj/Debug/net6.0/APBD_zad2.csproj.AssemblyReference.cache
+/Users/magdalena/Documents/GitHub/APBD2023/APBD_zad2/APBD_zad2/obj/Debug/net6.0/APBD_zad2.GeneratedMSBuildEditorConfig.editorconfig
+/Users/magdalena/Documents/GitHub/APBD2023/APBD_zad2/APBD_zad2/obj/Debug/net6.0/APBD_zad2.AssemblyInfoInputs.cache
+/Users/magdalena/Documents/GitHub/APBD2023/APBD_zad2/APBD_zad2/obj/Debug/net6.0/APBD_zad2.AssemblyInfo.cs
+/Users/magdalena/Documents/GitHub/APBD2023/APBD_zad2/APBD_zad2/obj/Debug/net6.0/APBD_zad2.csproj.CoreCompileInputs.cache
+/Users/magdalena/Documents/GitHub/APBD2023/APBD_zad2/APBD_zad2/bin/Debug/net6.0/APBD_zad2
+/Users/magdalena/Documents/GitHub/APBD2023/APBD_zad2/APBD_zad2/bin/Debug/net6.0/APBD_zad2.deps.json
+/Users/magdalena/Documents/GitHub/APBD2023/APBD_zad2/APBD_zad2/bin/Debug/net6.0/APBD_zad2.runtimeconfig.json
+/Users/magdalena/Documents/GitHub/APBD2023/APBD_zad2/APBD_zad2/bin/Debug/net6.0/APBD_zad2.dll
+/Users/magdalena/Documents/GitHub/APBD2023/APBD_zad2/APBD_zad2/bin/Debug/net6.0/APBD_zad2.pdb
+/Users/magdalena/Documents/GitHub/APBD2023/APBD_zad2/APBD_zad2/bin/Debug/net6.0/Newtonsoft.Json.dll
+/Users/magdalena/Documents/GitHub/APBD2023/APBD_zad2/APBD_zad2/obj/Debug/net6.0/APBD_zad2.csproj.CopyComplete
+/Users/magdalena/Documents/GitHub/APBD2023/APBD_zad2/APBD_zad2/obj/Debug/net6.0/APBD_zad2.dll
+/Users/magdalena/Documents/GitHub/APBD2023/APBD_zad2/APBD_zad2/obj/Debug/net6.0/refint/APBD_zad2.dll
+/Users/magdalena/Documents/GitHub/APBD2023/APBD_zad2/APBD_zad2/obj/Debug/net6.0/APBD_zad2.pdb
+/Users/magdalena/Documents/GitHub/APBD2023/APBD_zad2/APBD_zad2/obj/Debug/net6.0/APBD_zad2.genruntimeconfig.cache
+/Users/magdalena/Documents/GitHub/APBD2023/APBD_zad2/APBD_zad2/obj/Debug/net6.0/ref/APBD_zad2.dll

@@ -1,19 +1,37 @@
+using APBD_zad4.DBServices;
+using APBD_zad4.Models;
 using Microsoft.AspNetCore.Mvc;
 
-namespace APBD_zad4;
-
-public class Animals : Controller
+namespace APBD_zad4
 {
-   
-   private static List<Animal> _animal = new List<Animal>()
-   {
-       // new Student("x", "y", 100, new DateTime(1990, 9, 20), "studia", "tryb", "email", "ojciec", "matka"),
-       // new Student("x2", "y2", 101, new DateTime(1991, 9, 20), "studia1", "tryb1", "email1", "ojciec1", "matka1")
-   };
-   
-   [HttpGet]
-   public IEnumerable<Animal> Get()
-   {
-      return _animal;
-   }
+    [Route("api/[controller]")]
+    [ApiController]
+    public class AnimalsController : ControllerBase
+    {
+        private readonly IAnimalDbService _animalDbService;
+
+        public AnimalsController(IAnimalDbService animalsDbService)
+        {
+            _animalDbService = animalsDbService;
+        }
+        
+        [HttpGet]
+        public async Task<IActionResult> GetAnimals([FromQuery] string orderBy)
+        {
+            List<Animal> animals = null;
+            try
+            {
+                animals = _animalDbService.GetAnimals(orderBy);}
+            catch (Exception) { return NotFound("You can order by name, description, category or area"); }
+            return Ok(animals);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> PostAnimal(Animal animal)
+        {
+            try { _animalDbService.PostAnimal(animal); }
+            catch (Exception) { return BadRequest("Data are not valid"); }
+            return Ok("Animal created");
+        }
+    }
 }

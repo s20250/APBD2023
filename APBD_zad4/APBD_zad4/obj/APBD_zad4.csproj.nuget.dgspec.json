@@ -42,7 +42,7 @@
               "target": "Package",
               "version": "[5.1.0, )"
             },
-            "Microsoft.EntityFrameworkCore.Sqlite.Core": {
+            "Microsoft.Data.Sqlite": {
               "target": "Package",
               "version": "[7.0.2, )"
             },
@@ -51,10 +51,6 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.2, )"
-            },
-            "MySql.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[7.0.0, )"
             },
             "OpenApi.Core": {
               "target": "Package",

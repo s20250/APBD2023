@@ -33,5 +33,32 @@ namespace APBD_zad4
             catch (Exception) { return BadRequest("Data are not valid"); }
             return Ok("Animal created");
         }
+
+        [HttpPut("{idAnimal}")]
+        public async Task<IActionResult> PutAnimal(int idAnimal, Animal animal)
+        {
+            try
+            {
+                _animalDbService.PutAnimal(idAnimal, animal);
+            }
+            catch (Exception){}
+
+            return Ok("Animal changed");
+
+        }
+
+
+        [HttpDelete("{idAnimal}")]
+        public async Task<IActionResult> DeleteAnimal(int idAnimal)
+        {
+            try
+            {
+                _animalDbService.DeleteAnimal(idAnimal);
+            }
+            catch (Exception) {}
+        
+        return Ok("Animal deleted");
+        }
+        
     }
 }

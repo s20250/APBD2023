@@ -8,7 +8,7 @@ namespace APBD_zad4.DBServices
         {
             List<Animal> GetAnimals(string orderBy);
             void PostAnimal(Animal animal);
-            // void PutAnimal(int idAnimal, Animal animal);
-            // void DeleteAnimal(int idAnimal);
+            void PutAnimal(int idAnimal, Animal animal);
+            void DeleteAnimal(int idAnimal);
         }
     }

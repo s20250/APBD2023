@@ -4,6 +4,7 @@ using System.Net;
 using System.Threading.Tasks;
 using APBD_zad4.DBServices;
 using APBD_zad4.Models;
+using Microsoft.Data.Sqlite;
 
 namespace APBD_zad4.DBServices
 {
@@ -14,11 +15,10 @@ namespace APBD_zad4.DBServices
         public List<Animal> GetAnimals(string orderBy)
         {
             var animals = new List<Animal>();
-            using (var connection = new SqlConnection(connectionString))
+            using (var connection = new SqliteConnection(connectionString))
             {
-                using (var command = new SqlCommand())
+                using (var command = connection.CreateCommand())
                 {
-                    command.Connection = connection;
                     string[] columnsNames = { "name", "description", "category", "area" };
                     bool isMatched = false;
 
@@ -29,13 +29,18 @@ namespace APBD_zad4.DBServices
                                 isMatched = true;
 
                         if (isMatched)
-                            command.CommandText = $"SELECT * FROM Animal ORDER BY {orderBy} ASC";
+                        {
+                            command.CommandText = @"SELECT * FROM Animal ORDER BY $orderBy ASC";
+                            command.Parameters.AddWithValue("$orderBy", orderBy);
+                        }
+
                         else throw new Exception("No Matched Column Name");
                     }
                     else command.CommandText = "SELECT * FROM Animal ORDER BY Name ASC";
 
+
                     connection.Open();
-                    SqlDataReader reader = command.ExecuteReader();
+                    var reader = command.ExecuteReader();
 
                     while (reader.Read())
                         animals.Add(new Animal
@@ -55,19 +60,64 @@ namespace APBD_zad4.DBServices
 
         public void PostAnimal(Animal animal)
         {
+            using (var connection = new SqliteConnection(connectionString))
             {
-                using (var connection = new SqlConnection(connectionString))
+                using (var command = connection.CreateCommand())
                 {
-                    using (var command = new SqlCommand())
+                    command.Connection = connection;
+                    command.CommandText =
+                        $"INSERT INTO Animal(Name, Description, Category, Area) VALUES(@name, @description, @category, @area)";
+                    command.Parameters.AddWithValue("name", animal.Name);
+                    command.Parameters.AddWithValue("description", animal.Description);
+                    command.Parameters.AddWithValue("category", animal.Category);
+                    command.Parameters.AddWithValue("area", animal.Area);
+                    connection.Open();
+
+                    connection.Close();
+                }
+            }
+        }
+
+
+        public void PutAnimal(int idAnimal, Animal animal)
+        {
+            using (var connection = new SqliteConnection(connectionString))
+            {
+                using (var command = connection.CreateCommand())
+                {
+                    command.Connection = connection;
+                    connection.Open();
+
+                    command.CommandText = @"SELECT * FROM Animal where ID = $idAnimal ASC";
+                    command.Parameters.AddWithValue("$idAnimal", idAnimal);
+                    var reader = command.ExecuteReader();
+
+                    while (reader.Read())
                     {
-                        command.Connection = connection;
-                        command.CommandText =
-                            $"INSERT INTO Animal(Name, Description, Category, Area) VALUES(@name, @description, @category, @area)";
                         command.Parameters.AddWithValue("name", animal.Name);
                         command.Parameters.AddWithValue("description", animal.Description);
                         command.Parameters.AddWithValue("category", animal.Category);
                         command.Parameters.AddWithValue("area", animal.Area);
+                    }
+
+                    connection.Close();
+                }
+            }
+        }
+
+        public void DeleteAnimal(int idAnimal)
+            {
+                using (var connection = new SqliteConnection(connectionString))
+                {
+                    using (var command = connection.CreateCommand())
+                    {
+                        command.Connection = connection;
                         connection.Open();
+
+                        command.Connection = connection;
+                        command.CommandText = @"DELETE FROM Animal WHERE idAnimal = @idAnimal";
+                        command.Parameters.AddWithValue("idAnimal", idAnimal);
+
 
                         connection.Close();
                     }
@@ -75,7 +125,4 @@ namespace APBD_zad4.DBServices
             }
         }
     }
-}
 
-
-    

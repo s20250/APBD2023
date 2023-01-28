@@ -1,0 +1,66 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/magdalena/Downloads/linq-tasks/LinqCwiczenia2/LinqTutorials/LinqTutorials.csproj": {}
+  },
+  "projects": {
+    "/Users/magdalena/Downloads/linq-tasks/LinqCwiczenia2/LinqTutorials/LinqTutorials.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/magdalena/Downloads/linq-tasks/LinqCwiczenia2/LinqTutorials/LinqTutorials.csproj",
+        "projectName": "LinqTutorials",
+        "projectPath": "/Users/magdalena/Downloads/linq-tasks/LinqCwiczenia2/LinqTutorials/LinqTutorials.csproj",
+        "packagesPath": "/Users/magdalena/.nuget/packages/",
+        "outputPath": "/Users/magdalena/Downloads/linq-tasks/LinqCwiczenia2/LinqTutorials/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/magdalena/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "System.Linq": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.300/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

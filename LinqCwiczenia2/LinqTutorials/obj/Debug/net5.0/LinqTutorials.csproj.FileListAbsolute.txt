@@ -1,0 +1,16 @@
+/Users/magdalena/Downloads/linq-tasks/LinqCwiczenia2/LinqTutorials/obj/Debug/net5.0/LinqTutorials.csproj.AssemblyReference.cache
+/Users/magdalena/Downloads/linq-tasks/LinqCwiczenia2/LinqTutorials/obj/Debug/net5.0/LinqTutorials.GeneratedMSBuildEditorConfig.editorconfig
+/Users/magdalena/Downloads/linq-tasks/LinqCwiczenia2/LinqTutorials/obj/Debug/net5.0/LinqTutorials.AssemblyInfoInputs.cache
+/Users/magdalena/Downloads/linq-tasks/LinqCwiczenia2/LinqTutorials/obj/Debug/net5.0/LinqTutorials.AssemblyInfo.cs
+/Users/magdalena/Downloads/linq-tasks/LinqCwiczenia2/LinqTutorials/obj/Debug/net5.0/LinqTutorials.csproj.CoreCompileInputs.cache
+/Users/magdalena/Downloads/linq-tasks/LinqCwiczenia2/LinqTutorials/bin/Debug/net5.0/LinqTutorials
+/Users/magdalena/Downloads/linq-tasks/LinqCwiczenia2/LinqTutorials/bin/Debug/net5.0/LinqTutorials.deps.json
+/Users/magdalena/Downloads/linq-tasks/LinqCwiczenia2/LinqTutorials/bin/Debug/net5.0/LinqTutorials.runtimeconfig.json
+/Users/magdalena/Downloads/linq-tasks/LinqCwiczenia2/LinqTutorials/bin/Debug/net5.0/LinqTutorials.runtimeconfig.dev.json
+/Users/magdalena/Downloads/linq-tasks/LinqCwiczenia2/LinqTutorials/bin/Debug/net5.0/LinqTutorials.dll
+/Users/magdalena/Downloads/linq-tasks/LinqCwiczenia2/LinqTutorials/bin/Debug/net5.0/LinqTutorials.pdb
+/Users/magdalena/Downloads/linq-tasks/LinqCwiczenia2/LinqTutorials/obj/Debug/net5.0/LinqTutorials.dll
+/Users/magdalena/Downloads/linq-tasks/LinqCwiczenia2/LinqTutorials/obj/Debug/net5.0/refint/LinqTutorials.dll
+/Users/magdalena/Downloads/linq-tasks/LinqCwiczenia2/LinqTutorials/obj/Debug/net5.0/LinqTutorials.pdb
+/Users/magdalena/Downloads/linq-tasks/LinqCwiczenia2/LinqTutorials/obj/Debug/net5.0/LinqTutorials.genruntimeconfig.cache
+/Users/magdalena/Downloads/linq-tasks/LinqCwiczenia2/LinqTutorials/obj/Debug/net5.0/ref/LinqTutorials.dll

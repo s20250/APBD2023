@@ -1,0 +1,7 @@
+/Users/magdalena/Documents/GitHub/APBD2023/APBD_zad9/APBD_zad9/obj/Debug/net6.0/APBD_zad9.csproj.AssemblyReference.cache
+/Users/magdalena/Documents/GitHub/APBD2023/APBD_zad9/APBD_zad9/obj/Debug/net6.0/APBD_zad9.GeneratedMSBuildEditorConfig.editorconfig
+/Users/magdalena/Documents/GitHub/APBD2023/APBD_zad9/APBD_zad9/obj/Debug/net6.0/APBD_zad9.AssemblyInfoInputs.cache
+/Users/magdalena/Documents/GitHub/APBD2023/APBD_zad9/APBD_zad9/obj/Debug/net6.0/APBD_zad9.AssemblyInfo.cs
+/Users/magdalena/Documents/GitHub/APBD2023/APBD_zad9/APBD_zad9/obj/Debug/net6.0/APBD_zad9.csproj.CoreCompileInputs.cache
+/Users/magdalena/Documents/GitHub/APBD2023/APBD_zad9/APBD_zad9/obj/Debug/net6.0/APBD_zad9.MvcApplicationPartsAssemblyInfo.cs
+/Users/magdalena/Documents/GitHub/APBD2023/APBD_zad9/APBD_zad9/obj/Debug/net6.0/APBD_zad9.MvcApplicationPartsAssemblyInfo.cache

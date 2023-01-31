@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "cd4hEEBjRDRI1nqecipx152M+C5oJGEVaEZltIYeYfSWgCXpMfq72FZ5NO8eJrCfhRwN1jgPZamdCHuLpeHA1Q==",
+  "success": true,
+  "projectFilePath": "/Users/magdalena/Documents/GitHub/APBD2023/APBD_zad11/APBD_zad11/APBD_zad11.csproj",
+  "expectedPackageFiles": [
+    "/Users/magdalena/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "/Users/magdalena/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/Users/magdalena/.nuget/packages/swashbuckle.aspnetcore/5.6.3/swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "/Users/magdalena/.nuget/packages/swashbuckle.aspnetcore.swagger/5.6.3/swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "/Users/magdalena/.nuget/packages/swashbuckle.aspnetcore.swaggergen/5.6.3/swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "/Users/magdalena/.nuget/packages/swashbuckle.aspnetcore.swaggerui/5.6.3/swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}
